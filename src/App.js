@@ -18,7 +18,7 @@ class App extends Component  {
   render(){
   return (
     <div className="App">
-        {console.log(this.state)}
+        
        <CardList monsters={this.state.monsters}/>
 
               
